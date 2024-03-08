@@ -11,6 +11,11 @@ body {
     color: #717171;
 }
 
+::selection {
+    background-color: #ec7532;
+    color: white;
+}
+
 .section {
     padding: 75px 0;
 }
@@ -95,6 +100,7 @@ header p {
     width: 100%;
     transform: translate(-50%, -100%);
     transition: transform .5s;
+    z-index: 16;
 }
 
 /* CAROUSEL */
@@ -215,6 +221,11 @@ header p {
     height: 100%;
     background: linear-gradient(to top, black, transparent);
 
+}
+
+.movieCarousel__trailer a {
+    color: white;
+    text-decoration: none;
 }
 
 /* NEW IN */
@@ -451,8 +462,101 @@ header p {
     border: 1px solid #ec7532;
     font-size: 25px;
     transition: .5s;
+    color: white;
 }
 
 .commingSoon__video:hover i {
     transform: translate(-50%, -50%) scale(0.9);
+}
+
+/* MOVIE LIST */
+.movieList {
+
+    background-color: #101010;
+}
+
+.movieList__item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.movieList__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.movieList__item:hover .movieList__overlay {
+    opacity: 0;
+}
+
+/* CONTACT */
+.contact__content {
+    text-align: center;
+}
+
+.contact__content p:first-child {
+    font-size: 23px;
+    color: #4a4a4a;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.contact__content a {
+    color: #fbbd61;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background-color: #101010;
+
+}
+
+footer h3 {
+    font-size: 16px;
+    color: #ec7532;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+footer li {
+    list-style: none;
+
+}
+
+footer a {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding: 3px 0;
+    transition: .5s;
+}
+
+footer a:hover {
+    color: #fbbd61;
+    text-decoration: none;
+}
+
+.footer__copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 15px 0;
+}
+
+.footer__copyright p {
+    margin-bottom: 0;
+}
+
+.footer__copyright span {
+    color: #ec7532;
 }

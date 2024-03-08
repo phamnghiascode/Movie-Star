@@ -24,6 +24,8 @@
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <!-- VENOBOX CSS -->
+    <link rel="stylesheet" href="./css/venobox.min.css">
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/index.css">
 </head>
@@ -126,8 +128,12 @@
                                 <span>PG</span>
                                 <button class="btn">
                                     <span>
-                                        <i class="fa fa-play"></i>
-                                        PLAY TRAILER
+                                        <a class="urgot" data-autoplay="true" data-vbtype="video"
+                                            href="https://youtu.be/99k3u9ay1gs?si=yxEONeOba-rtkAW_"><i
+                                                class="fa fa-play"></i>
+                                            PLAY TRAILER
+                                        </a>
+
                                     </span>
                                 </button>
                             </div>
@@ -151,8 +157,11 @@
                                 <span>PG</span>
                                 <button class="btn">
                                     <span>
-                                        <i class="fa fa-play"></i>
-                                        PLAY TRAILER
+                                        <a class="urgot" data-autoplay="true" data-vbtype="video"
+                                            href="https://youtu.be/Mp88Nuci68c?si=9RCq9Cm8JA-yOskn"><i
+                                                class="fa fa-play"></i>
+                                            PLAY TRAILER
+                                        </a>
                                     </span>
                                 </button>
                             </div>
@@ -176,8 +185,11 @@
                                 <span>PG</span>
                                 <button class="btn">
                                     <span>
-                                        <i class="fa fa-play"></i>
-                                        PLAY TRAILER
+                                        <a class="urgot" data-autoplay="true" data-vbtype="video"
+                                            href="https://youtu.be/jzQn0-WH4WM?si=09ZgJzbPX6HdQ262"><i
+                                                class="fa fa-play"></i>
+                                            PLAY TRAILER
+                                        </a>
                                     </span>
                                 </button>
                             </div>
@@ -199,8 +211,12 @@
                             <div class="newIn__overlay"></div>
                             <div class="newIn__play">
                                 <div>
-                                    <a href=""><i class="fa fa-play"></i></a>
-                                    <a href="#">read more</a>
+                                    <!-- <a href=""><i class="fa fa-play"></i></a> -->
+                                    <a class="urgot" data-autoplay="true" data-vbtype="video"
+                                        href="https://youtu.be/V-mugKDQDlg?si=VZKWEwIeNGrj120B">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                    <a href="">read more</a>
                                     <p class="date">Released: 12 Nov, 2024</p>
                                 </div>
                             </div>
@@ -222,7 +238,10 @@
                             <div class="newIn__overlay"></div>
                             <div class="newIn__play">
                                 <div>
-                                    <a href=""><i class="fa fa-play"></i></a>
+
+                                    <a class="urgot" data-autoplay="true" data-vbtype="video"
+                                        href="https://youtu.be/LTyelOWIGh0?si=ZlWVcqqAIflggoqk"><i
+                                            class="fa fa-play"></i></a>
                                     <a href="#">read more</a>
                                     <p class="date">Released: 3 Feb, 2024</p>
                                 </div>
@@ -245,7 +264,9 @@
                             <div class="newIn__overlay"></div>
                             <div class="newIn__play">
                                 <div>
-                                    <a href=""><i class="fa fa-play"></i></a>
+                                    <a class="urgot" data-autoplay="true" data-vbtype="video"
+                                        href="https://youtu.be/LlbN5cQKZik?si=NEJPaOIHd0oHXkQD"><i
+                                            class="fa fa-play"></i></a>
                                     <a href="#">read more</a>
                                     <p class="date">Released: 26 Oct, 2024</p>
                                 </div>
@@ -268,7 +289,9 @@
                             <div class="newIn__overlay"></div>
                             <div class="newIn__play">
                                 <div>
-                                    <a href=""><i class="fa fa-play"></i></a>
+                                    <a class="urgot" data-autoplay="true" data-vbtype="video"
+                                        href="https://youtu.be/nCqDdsZY7RA?si=cbh9w6D-8-Qw2zvH"><i
+                                            class="fa fa-play"></i></a>
                                     <a href="#">read more</a>
                                     <p class="date">Released: 19 Feb, 2024</p>
                                 </div>
@@ -973,19 +996,110 @@
                     <a href="#">MORE INFO <i class="fa fa-angle-right"></i></a>
                 </div>
                 <div class="col-6">
-                    <div class="commingSoon__video">
-                        <img class="img-fluid" src="./img/slide-3-video.png" alt="">
-                        <i class="fa fa-play"></i>
-                    </div>
+                    <a class="urgot" data-autoplay="true" data-vbtype="video"
+                        href="https://youtu.be/5-o2m9NfUi0?si=_WVpiygCTyqe-N-F">
+                        <div class="commingSoon__video">
+                            <img class="img-fluid" src="./img/slide-3-video.png" alt="">
+                            <i class="fa fa-play"></i>
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </div>
     </section>
     <!-- MOVIE LIST -->
-    <section class="movieList"></section>
+    <section class="movieList section">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-9.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-8.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-11.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-13.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-12.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="movieList__item">
+                        <img class="img-fluid" src="./img/movie-14.jpg" alt="">
+                        <div class="movieList__overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- CONTACT -->
-    <section class="contact"></section>
-    <footer></footer>
+    <section class="contact section">
+        <div class="contact__content">
+            <p>Need help? Contact my support on</p>
+            <p><a href="mailto:nghiaphamjb@gmail.com">nghiaphamjb@gmail.com</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row section">
+                <div class="col-3">
+                    <h3>GET IN TOUCH</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Give us feedback</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>ABOUT MOVIE STAR</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Find us</a></li>
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>LEGAL STUFF</h3>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Private policy</a></li>
+                        <li><a href="#">Cookie policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>CONNECT WITH US</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i> Google</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>2024 &copy Movie Star | <span>Nghia Pham Trong</span></p>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- JQUERY -->
@@ -995,7 +1109,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-
+    <!-- VENOBOX -->
+    <script src="./js/venobox.min.js"></script>
+    <script>
+        new VenoBox({
+            selector: ".urgot"
+        });
+    </script>
     <!-- MAIN JS -->
     <script>
         window.onscroll = function () {
