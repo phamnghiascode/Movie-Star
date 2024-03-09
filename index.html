@@ -32,11 +32,11 @@
 
 <body>
     <header class="container-md">
-        <p class="text-right text-white mb-0">
+        <!-- <p class="text-right text-white mb-0">
             <i class="fa-solid fa-phone"></i>
             <span class="mx-3 border-right pr-2">078.912.3456</span>
             <i class="fa fa-search"></i>
-        </p>
+        </p> -->
         <nav class="navbar navbar-expand-md px-0">
             <a class="navbar-brand" href="#">
                 <img src="./img/logo.svg" alt="logo">
@@ -204,7 +204,7 @@
             <h2 class="title">New In</h2>
             <div class="newIn__content">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-6 col-md-3">
                         <div class="newIn__img">
                             <img class="img-fluid" src="./img/movie-1.jpg" alt="movie1">
                             <div class="newIn__overlay"></div>
@@ -220,7 +220,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="newIn__title">
+                        <div class="newIn__title mb-3 mb-md-0">
                             <h3>The last post</h3>
                             <div>
                                 <i class="fa fa-star"></i>
@@ -231,8 +231,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="newIn__img">
+                    <div class="col-6 col-md-3">
+                        <div class="newIn__img mb-3 mb-md-0">
                             <img class="img-fluid" src="./img/movie-2.jpg" alt="movie2">
                             <div class="newIn__overlay"></div>
                             <div class="newIn__play">
@@ -257,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-6 col-md-3">
                         <div class="newIn__img">
                             <img class="img-fluid" src="./img/movie-3.jpg" alt="movie1">
                             <div class="newIn__overlay"></div>
@@ -271,7 +271,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="newIn__title">
+                        <div class="newIn__title mb-3 mb-md-0">
                             <h3>Venture</h3>
                             <div>
                                 <i class="fa fa-star"></i>
@@ -282,7 +282,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-6 col-md-3">
                         <div class="newIn__img">
                             <img class="img-fluid" src="./img/movie-4.jpg" alt="movie1">
                             <div class="newIn__overlay"></div>
@@ -296,7 +296,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="newIn__title">
+                        <div class="newIn__title mb-3 mb-md-0">
                             <h3>Hush</h3>
                             <div>
                                 <i class="fa fa-star"></i>
@@ -313,8 +313,8 @@
     </section>
     <!-- SHOW TIMES -->
     <section class="section showTimes">
-        <div class="container">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <div class="container-md">
+            <ul class="nav nav-tabs flex-column flex-sm-row" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <a class="nav-link line active" id="mon-tab" data-toggle="tab" href="#mon" role="tab"
                         aria-controls="home" aria-selected="true"><span>MON</span></a>
@@ -347,17 +347,18 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="mon" role="tabpanel" aria-labelledby="home-tab">
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-5.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Captain America: The First Avenger</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -368,7 +369,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -376,17 +377,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-6.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>It's Over</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -397,7 +399,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -405,17 +407,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-14.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Earth</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -426,7 +429,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -436,17 +439,18 @@
                 </div>
                 <div class="tab-pane fade" id="tue" role="tabpanel" aria-labelledby="profile-tab">
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-7.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>SHHH</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -457,7 +461,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -465,17 +469,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-11.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Blitcrank</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -486,7 +491,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -494,17 +499,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-12.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Dead Eyes</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -515,7 +521,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -525,17 +531,18 @@
                 </div>
                 <div class="tab-pane fade" id="today" role="tabpanel" aria-labelledby="contact-tab">
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-9.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Bat Man</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -546,7 +553,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -554,17 +561,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-8.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>End Game</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -575,7 +583,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -583,17 +591,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-4.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Black Hold</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -604,7 +613,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -614,17 +623,18 @@
                 </div>
                 <div class="tab-pane fade" id="thu" role="tabpanel" aria-labelledby="contact-tab">
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-5.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Captain America: The First Avenger</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -635,7 +645,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -643,17 +653,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-6.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>It's Over</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -664,7 +675,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -672,17 +683,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-14.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Earth</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -693,7 +705,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -703,17 +715,18 @@
                 </div>
                 <div class="tab-pane fade" id="fri" role="tabpanel" aria-labelledby="contact-tab">
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-7.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>SHHH</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -724,7 +737,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -732,17 +745,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-11.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Blitcrank</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -753,7 +767,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -761,17 +775,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-12.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Dead Eyes</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -782,7 +797,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -792,17 +807,18 @@
                 </div>
                 <div class="tab-pane fade" id="sat" role="tabpanel" aria-labelledby="contact-tab">
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-9.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Bat Man</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -813,7 +829,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -821,17 +837,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-8.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>End Game</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -842,7 +859,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -850,17 +867,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-4.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Black Hold</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -871,7 +889,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -881,17 +899,18 @@
                 </div>
                 <div class="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="contact-tab">
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-5.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Captain America: The First Avenger</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -902,7 +921,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -910,17 +929,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-6.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>It's Over</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -931,7 +951,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -939,17 +959,18 @@
                         </div>
                     </div>
                     <div class="row py-5 showTimes__row">
-                        <div class="col-2">
+                        <div class="col-12 col-md-3 col-lg-2">
                             <img class="img-fluid" src="./img/movie-14.jpg" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-12  col-md-9 col-lg-10 mt-3 mt-md-0">
                             <p>ACTION, ADVENTURE, FANTASY</p>
                             <h3>Earth</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit voluptas dolore dolorum
                                 accusamus autem saepe magni sit molestias totam possimus.</p>
                             <p><a href="#">FULL SYNOPSIS <i class="fa fa-angle-right"></i></a></p>
                             <div class="row showTimes__runningTimes">
-                                <div class="col-9 d-flex align-items-center">
+                                <div class="col-12 col-md-9 d-lg-flex align-items-center">
+
                                     <span>
                                         <i class="fa fa-clock"></i> VIEWING TIMES
                                     </span>
@@ -960,7 +981,7 @@
                                         <button class="btn">16:30</button>
                                     </div>
                                 </div>
-                                <div class="showTimes__mins col-3 d-flex align-items-center justify-content-end">
+                                <div class=" col-12 col-md-3 text-md-right mt-3 mt-md-0 showTimes__mins">
                                     <span>105 MINS</span>
                                     <span>18+</span>
                                 </div>
@@ -973,10 +994,10 @@
     </section>
     <!-- COMING SOON -->
     <section class="comingSoon section">
-        <div class="container">
+        <div class="container-md">
             <h2 class=" title title--white">COMMING SOON</h2>
             <div class="row align-items-center">
-                <div class="col-6">
+                <div class="col-12 col-sm-6">
                     <p class="comingSoon__type">COMEDY, CRIME</p>
                     <h3>The Hangover Part III</h3>
                     <div class="comingSoon__rating">
@@ -994,7 +1015,7 @@
                         who has escaped from prison and is on the run</p>
                     <a href="#">MORE INFO <i class="fa fa-angle-right"></i></a>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-sm-6 mt-3 mt-sm-0">
                     <a class="urgot" data-autoplay="true" data-vbtype="video"
                         href="https://youtu.be/5-o2m9NfUi0?si=_WVpiygCTyqe-N-F">
                         <div class="commingSoon__video">
@@ -1011,37 +1032,37 @@
     <section class="movieList section">
         <div class="container">
             <div class="row">
-                <div class="col-2">
+                <div class="col-4 col-lg-2 mb-3 mb-lg-0">
                     <div class="movieList__item">
                         <img class="img-fluid" src="./img/movie-9.jpg" alt="">
                         <div class="movieList__overlay"></div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-lg-2 mb-3 mb-lg-0">
                     <div class="movieList__item">
                         <img class="img-fluid" src="./img/movie-8.jpg" alt="">
                         <div class="movieList__overlay"></div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-lg-2 mb-3 mb-lg-0">
                     <div class="movieList__item">
                         <img class="img-fluid" src="./img/movie-11.jpg" alt="">
                         <div class="movieList__overlay"></div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-lg-2">
                     <div class="movieList__item">
                         <img class="img-fluid" src="./img/movie-13.jpg" alt="">
                         <div class="movieList__overlay"></div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-lg-2">
                     <div class="movieList__item">
                         <img class="img-fluid" src="./img/movie-12.jpg" alt="">
                         <div class="movieList__overlay"></div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-4 col-lg-2">
                     <div class="movieList__item">
                         <img class="img-fluid" src="./img/movie-14.jpg" alt="">
                         <div class="movieList__overlay"></div>
@@ -1060,7 +1081,7 @@
     <footer>
         <div class="container">
             <div class="row section">
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <h3>GET IN TOUCH</h3>
                     <ul>
                         <li><a href="#">FAQs</a></li>
@@ -1068,7 +1089,7 @@
                         <li><a href="#">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <h3>ABOUT MOVIE STAR</h3>
                     <ul>
                         <li><a href="#">About us</a></li>
@@ -1077,7 +1098,7 @@
                         <li><a href="#">News</a></li>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <h3>LEGAL STUFF</h3>
                     <ul>
                         <li><a href="#">Terms & Conditions</a></li>
@@ -1085,7 +1106,7 @@
                         <li><a href="#">Cookie policy</a></li>
                     </ul>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <h3>CONNECT WITH US</h3>
                     <ul>
                         <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
